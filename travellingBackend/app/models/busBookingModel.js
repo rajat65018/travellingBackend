@@ -14,8 +14,8 @@ const ticketBookingSchema = mongoose.Schema({
     required: true,
   },
   bookingStatus:{
-    type:string,
-    requried:true
+    type: String,
+    requried: true
   },
   passenger: [
     {
