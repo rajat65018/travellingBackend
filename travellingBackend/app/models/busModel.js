@@ -27,7 +27,7 @@ const busSchema = mongoose.Schema(
     },
     fare: {
       type: Number,
-      required: String,
+      required: true,
     },
     boarding: [{ type: String }],
   },
