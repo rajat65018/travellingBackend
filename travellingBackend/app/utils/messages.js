@@ -7,6 +7,7 @@ const MESSAGES = {
   USER_NOT_FOUND: "User not found",
   BUS_EXIST: "Bus Already exist",
   BUS_CREATED_SUCCESSFULLY: "Bus created successfully",
+  INVALID_PASSWORD:"You have entered wrong password",
 };
 
 module.exports = MESSAGES;

@@ -6,7 +6,7 @@ const adminRoutes = express.Router();
 
 adminRoutes.post("/adminSignUp", adminController.signUp);
 
-adminRoutes.post("/login", adminController.login);
+adminRoutes.post("/adminLogin", adminController.login);
 
 adminRoutes.put("/admin");
 
